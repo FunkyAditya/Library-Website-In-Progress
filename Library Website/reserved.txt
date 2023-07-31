@@ -1,0 +1,8 @@
+1.    <div class="card opacity-0" style="border: none;" style="width: 18rem;">
+        <img src="Laibrary.jpg" class="card-img-top w-50 p-3">
+        <div class="card-body" style="font-family: Bebas Neue;">
+          <h3 class="card-text">Library Of DAV Public School Koylanagar</h3>
+          <h5 class="card-text">The DAV Public School Koylanagar library is a treasure trove of knowledge with a wide variety of books and resources for students to learn, grow, and explore their interests. It is a quiet and peaceful place to study, research, and relax. The library is open to all students and staff, and it is a popular place to visit. Students often use the library to do their homework, research projects, or just to find a quiet place to read. The library is also a great place to meet friends and discuss books.</h4>
+        </div>
+
+
