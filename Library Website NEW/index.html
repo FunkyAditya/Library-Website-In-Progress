@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Library</title>
+    <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Teko' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Squada One' rel='stylesheet'>
+    <link href='style.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="font-family: Rajdhani; font-size: 28px"><img src="library.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" style="font-family: Rajdhani; font-size: 26px">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Arrivals.html" style="font-family: Rajdhani; font-size: 26px">New-Arivals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html" style="font-family: Rajdhani; font-size: 26px">Contact Us</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+    <div id="stars"></div>
+<div id="stars2"></div>
+<div id="stars3"></div>
+<br>
+  <div style="font-family: Squada One;"><h1 class="d-flex justify-content-center text-dark text-center">Welcome to Library of DAV Public School Koylanagar </h1><br><h3 class="text-center text-dark d-flex justify-content-center">Your Gateway to Knowledge and Exploration!</h3><br>
+      <h5 class="d-flex justify-content-center text-dark text-center">Dive into a treasure trove of books, e-books, audiobooks, magazines, and multimedia resources across a wide range of genres and subjects. <br> Whether you're a literature enthusiast, a history buff, a tech-savvy individual, or a curious mind seeking new perspectives, our diverse collection caters to all ages and interests.</h5>
+      </div>
+      <div id="container" class="d-flex justify-content-center mx-auto p-4 bg-opacity-0">
+        <button class="learn-more" onclick="learn()">
+          <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+          </span>
+          <span class="button-text">About Us</span>
+        </button>
+    </div><br>
+    <div style="font-family: Squada One;">
+      <h2 class="d-flex justify-content-center text-dark text-center">Browse our vast selection of books and more</h2><br>
+      <h4 class="d-flex justify-content-center text-dark text-center">Whether you're looking for a new novel to read, a self-help book to help you achieve your goals, or a children's book to read to your child, we have you covered.<br> Our books and magzine section has something for everyone.</h4>
+    </div>
+      <div id="container" class="d-flex justify-content-center mx-auto p-2 bg-opacity-0">
+        <button onclick="book()" class="button smoke dark">Books</button>&nbsp;&nbsp; &nbsp;
+        <button onclick="ebook()" class="button smoke dark">Ebooks</button>&nbsp;&nbsp; &nbsp;
+        <button onclick="magzine()" class="button smoke dark">Magzines</button>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
